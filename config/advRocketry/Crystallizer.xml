@@ -12,14 +12,14 @@
 	
 	<Recipe timeRequired="NUMBER" power="NUMBER">
 		<input>
-			<fluidStack>FLUID NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
         </input>
 		<output>
-			<fluidStack>FLUID_NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
 		</output>
 	</Recipe>
 	
@@ -37,7 +37,7 @@
 			<oreDict>dustDilithium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productcrystal</itemStack>
+			<itemStack>libvulpes:productgem</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
@@ -46,7 +46,7 @@
 			<oreDict>nuggetSilicon</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productboule 1 3</itemStack>
+			<itemStack>libvulpes:productboule;1;3</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

@@ -12,14 +12,14 @@
 	
 	<Recipe timeRequired="NUMBER" power="NUMBER">
 		<input>
-			<fluidStack>FLUID NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
         </input>
 		<output>
-			<fluidStack>FLUID_NAME SIZE</fluidStack>
-			<itemStack>ITEM_NAME SIZE META</itemStack>
-			<oreDict>OREDICT_NAME SIZE</oreDict>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
 		</output>
 	</Recipe>
 	
@@ -37,7 +37,7 @@
 			<oreDict>oreDilithium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2</itemStack>
+			<itemStack>libvulpes:productdust;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -45,7 +45,7 @@
 			<oreDict>blockIron</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 1</itemStack>
+			<itemStack>libvulpes:productplate;4;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -53,7 +53,7 @@
 			<oreDict>oreIron</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2 1</itemStack>
+			<itemStack>libvulpes:productdust;2;1</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -61,7 +61,7 @@
 			<oreDict>blockGold</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 2</itemStack>
+			<itemStack>libvulpes:productplate;4;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -69,7 +69,7 @@
 			<oreDict>oreGold</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2 2</itemStack>
+			<itemStack>libvulpes:productdust;2;2</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -77,7 +77,7 @@
 			<oreDict>blockCopper</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 4</itemStack>
+			<itemStack>libvulpes:productplate;4;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -85,7 +85,7 @@
 			<oreDict>oreCopper</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2 4</itemStack>
+			<itemStack>libvulpes:productdust;2;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -93,7 +93,7 @@
 			<oreDict>blockTin</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 5</itemStack>
+			<itemStack>libvulpes:productplate;4;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -101,7 +101,7 @@
 			<oreDict>oreTin</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2 5</itemStack>
+			<itemStack>libvulpes:productdust;2;5</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -109,7 +109,7 @@
 			<oreDict>blockSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 6</itemStack>
+			<itemStack>libvulpes:productplate;4;6</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -117,7 +117,7 @@
 			<oreDict>blockTitanium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 7</itemStack>
+			<itemStack>libvulpes:productplate;4;7</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -125,7 +125,7 @@
 			<oreDict>blockAluminum</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 9</itemStack>
+			<itemStack>libvulpes:productplate;4;9</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -133,7 +133,7 @@
 			<oreDict>oreAluminum</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2 9</itemStack>
+			<itemStack>libvulpes:productdust;2;9</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -141,7 +141,7 @@
 			<oreDict>blockIridium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productplate 4 10</itemStack>
+			<itemStack>libvulpes:productplate;4;10</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -149,7 +149,7 @@
 			<oreDict>oreIridium</oreDict>
 		</input>
 		<output>
-			<itemStack>libvulpes:productdust 2 10</itemStack>
+			<itemStack>libvulpes:productdust;2;10</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -157,7 +157,7 @@
 			<oreDict>blockTitaniumAluminide</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productplate 4</itemStack>
+			<itemStack>advancedrocketry:productplate;4</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="0" power ="0">
@@ -165,7 +165,7 @@
 			<oreDict>blockTitaniumIridium</oreDict>
 		</input>
 		<output>
-			<itemStack>advancedrocketry:productplate 4 1</itemStack>
+			<itemStack>advancedrocketry:productplate;4;1</itemStack>
 		</output>
 	</Recipe>
 </Recipes>
